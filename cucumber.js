@@ -1,7 +1,10 @@
 module.exports = {
   default: {
     require: ["steps/**/*.ts"],
-    format: ["progress"],
-    requireModule: ["ts-node/register"]
+    requireModule: ["ts-node/register"],
+    format: [
+      "progress",
+      "json:reports/cucumber-report.json"
+    ]
   }
 };

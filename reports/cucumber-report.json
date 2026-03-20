@@ -1,0 +1,288 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-en-saucedemo;login-exitoso-con-usuario-estándar",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login exitoso con usuario estándar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 734732899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario navega a la página de login",
+            "match": {
+              "location": "steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 969027800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "inicia sesión con \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147544100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debería ver la página de productos",
+            "match": {
+              "location": "steps\\login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8190900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 304432099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-saucedemo;login-fallido-con-usuario-bloqueado",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login fallido con usuario bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 812215299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "el usuario navega a la página de login",
+            "match": {
+              "location": "steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 683492099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "inicia sesión con \"locked_out_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145355700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "debería ver un mensaje de error",
+            "match": {
+              "location": "steps\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5892899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245706400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-en-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login en SauceDemo",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-en-saucedemo;login-exitoso-con-usuario-estándar",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login exitoso con usuario estándar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 670745500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario navega a la página de login",
+            "match": {
+              "location": "steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 997008700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "inicia sesión con \"standard_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119363599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debería ver la página de productos",
+            "match": {
+              "location": "steps\\login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4588499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 217307299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-saucedemo;login-fallido-con-usuario-bloqueado",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login fallido con usuario bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 712340199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "el usuario navega a la página de login",
+            "match": {
+              "location": "steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 636954000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "inicia sesión con \"locked_out_user\" y \"secret_sauce\"",
+            "match": {
+              "location": "steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79136899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "debería ver un mensaje de error",
+            "match": {
+              "location": "steps\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4067499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 295547500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-en-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login en SauceDemo",
+    "tags": [],
+    "uri": "features\\purchase.feature"
+  }
+]

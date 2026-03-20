@@ -1,4 +1,4 @@
-import { Before, After } from "@cucumber/cucumber";
+import { Before, After, Status } from "@cucumber/cucumber";
 import { chromium } from "@playwright/test";
 
 Before(async function () {
@@ -7,6 +7,11 @@ Before(async function () {
   this.page = await this.context.newPage();
 });
 
-After(async function () {
+After(async function (scenario) {
+  if (scenario.result?.status === Status.FAILED) {
+    const screenshot = await this.page.screenshot();
+    await this.attach(screenshot, "image/png");
+  }
+
   await this.browser.close();
 });
