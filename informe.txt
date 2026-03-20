@@ -1,0 +1,6 @@
+Estrategia de automatización:
+Framework: Playwright + Cucumber
+Ventajas:Separación clara entre lógica y localizadores, Escalable, Reutilizable, Fácil mantenimiento
+Cobertura funcional:Casos positivos, Casos negativos, Flujo completo E2E
+
+Patrón: Page Object Model
