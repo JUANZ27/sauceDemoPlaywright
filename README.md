@@ -1,7 +1,7 @@
 # SauceDemo Automation - Playwright + Cucumber
 
 ## Requisitos
-- Node.js 18+
+- Node.js
 - npm
 
 ## Instalación
